@@ -1,0 +1,15 @@
+p.rouge{
+    color: red;
+}
+
+p.vert{
+    color: green;
+}
+
+div.code,div.exemple{
+    font-family: Courier;
+}
+
+ol{
+    background-color: yellow;
+}
