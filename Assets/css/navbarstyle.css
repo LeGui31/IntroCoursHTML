@@ -1,0 +1,38 @@
+.menu>li{
+    color: black;
+    display: inline-block;
+}
+
+.menu>li:hover{
+    border-bottom: 4px solid #39cc;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.services{
+    position: relative;
+}
+
+.services:hover>.sous-menu{
+    max-height: 150px;
+}
+
+.sous-menu{
+    position: absolute;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    left: 0;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.sous-menu>li>a{
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+}

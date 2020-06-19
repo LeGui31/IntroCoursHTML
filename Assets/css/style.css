@@ -4,7 +4,7 @@
 
 body{
     font-family:Verdana; 
-    background-image: url("../image/png/tunnel.png");
+   /* background-image: url("../image/png/tunnel.png"); */
     color: white;
 }
 
@@ -22,3 +22,11 @@ ul{
 .info{
     background-color: yellow;
 }
+
+a:hover {
+    color:red;
+    }
+
+    input[type=text]:focus {
+        background: red;
+    }
